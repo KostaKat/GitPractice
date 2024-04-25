@@ -1,1 +1,0 @@
-This is a test file to show case the new thing that I learned. I didn't know that you could make commits with messages with a subject and body.

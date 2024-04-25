@@ -1,0 +1,11 @@
+This is a test file to show case the new thing that I learned. I didn't know that you could make commits with messages with a subject and body.
+
+The following is what I learned how to structure my commit messages:
+Subject = concise summary of what happened
+
+Body = more detailed explanation
+     - What is now different than before?
+     - What's the reason for the change?
+     - Is there anything to out for / anything particularly remarkable
+
+Now I will make another commit to solidify this learning
