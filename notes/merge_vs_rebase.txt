@@ -1,0 +1,23 @@
+Merge vs Rebase
+
+These are both methods to put your already existing code back into an established branch
+
+
+- Merge
+	- when git commits a merge it looks for the following three commits, common ancestor commit, last commuit on branch-a & last commit on branch-B. 
+	- they then merge these all together
+	- examples of a merge:
+		branch a has no new changes on the commits for a specific portion, and branch b has changes on this specific changes, this is called a fast-forward merge
+		if these branches are different, git will make a new commit that is the differences of these changes called a merge commit
+
+Rebase, different than merge ie straignt line of commits
+Lets say that we are rebasing branch b
+- first git will "stash" branch a's commits after the common ancestor commit
+- then applies the changes from branch b
+- lastly the changes from branch a are put on branch b
+- it rewrite commit history
+- use this on local branches
+- do not use rebase on commit that youve already pushed or shared on a remote repo
+- use it to clean local commit hisory before merging it into a branch
+further resources that helped me learn
+
