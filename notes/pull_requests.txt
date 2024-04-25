@@ -7,4 +7,4 @@ Pull Requests
 Forks
 - your own copy of a repo
 
-
+- for forked repos, github automatically detects that you may want to do a pull request when pushing 
