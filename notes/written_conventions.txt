@@ -1,0 +1,48 @@
+A written convention
+
+Agree on a branching workflow in your team
+
+1. Git allows you to create branches - but doesn't tell you how to use them!
+2. You need a written best practice of how work is ideally structured in your team - to avoid mistakes & collisions
+2. It hihgly depends on your team /team size, on you project , and how you handle releases.
+4. It helps to onboard new team members ("this is how we work here")
+
+There are different ways that the branches can be set up. Here are some:
+1. Mainline Development
+	"Always be integrating"
+	- has few or only one branch
+	- small commits
+	- high-quality testing & QA standards
+2. State, Realease, and Feature Branches
+	"Branches Enhgance Structures & Workflow"
+	- different types of branches
+	- fufill different types of jobs
+
+
+Different Types of branches
+
+	These are the two main Types of Branches:
+	
+	Long-Running
+		-Exist through the complete lifetime of the project
+		- often, they mirror "stages" in your dev life cycle
+		-typically master or main can be a develop, production or staging branches
+		- integration branches can be staging or develop, they are states of project replease or delpoyment proccess
+		- typically these branches are not commited directly to these branches and changes are made via rebase or merging of branches
+		 
+	
+	Short-lived
+		- for new features, bug fixes,refactorings, experiments
+		- will be deleted after integration (merge/rebase)
+		- based on a long running branch, changes made on this branch will be merged to main
+Branching Strategies 
+Here are some of the many Branches strategies:
+	-GitHub Flow
+		- very simple, very lean: only one long branch("main") + feature branches
+	-GitFlow
+		- more structure
+		- long-running branches : "main" + "develop", reflections of the current production state
+		- feature branches will be merged into developed 
+		- develop is the starting point for every new releases and features
+		- when the code is ready for production you merge it back into main
+		- short-livedc: features, releases, hotfixes
