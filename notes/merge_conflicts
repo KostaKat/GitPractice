@@ -1,0 +1,12 @@
+Merge Conflicts
+
+- when they happen
+	-when you merge changes from a different from a different source, like a merge, rebase, pull, stash, or cherry pick
+	-the same line of code is changed from two different commits
+	-file was modified in one branch and deleted in another
+	-git status could tell you about these
+	-undoing conflict you can use git merge --abort or git rebase --abort
+	- git marks these conflicts, equal signs denote the two conflicting changes, and it is clearly marked where these changes are
+- how could I solve this(something I need to know because its annoying and I don't know how to do it)
+- you could manually edit but having a tool is more effiecient and better
+- from another source they gave me advice to sync often. Source : https://medium.com/@kaltepeter/tools-to-master-merge-conflicts-6d05b21a8ba8, this also gave me some tools for solving merge conflicts, I chose to use p4Merge because it is free and the writer of the article likes it the most
