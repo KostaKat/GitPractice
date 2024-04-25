@@ -1,0 +1,10 @@
+Pull Requests
+
+- are the a way to comminicate it and review code
+- allows others to look at your code
+- a way to contribute to a repo without having access to make commits
+
+Forks
+- your own copy of a repo
+
+
