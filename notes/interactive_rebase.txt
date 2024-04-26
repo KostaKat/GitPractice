@@ -1,0 +1,26 @@
+Interactive Rebase
+
+"The swiss army knife of git commands"
+
+- A tool for optimizing and cleaning up your  commit history
+
+- change a commit's message
+- delete commits
+- reorder commits
+- commbine multiple commuts into one
+-edit/split an existing commit into multiple ones
+- a rule is to never use interactive rebase on commits that are already pushed to a repository and only use it on local
+
+Here are the Step of doing this:
+
+- a rule is to never use interactive rebase on commits that are already pushed to a repository and only use it on local
+
+Here are the Step of doing this:
+
+1. How far should I go back? What range of commits
+2. git rebase -i HEAD~3, starts the action, 3 being how far back you want to go
+3. makes changes to those commits 
+
+if you want to edit the most recent commits you could use git commit amend the rest you must use an interactive rebase
+
+when you do step 2 you get a text editor, this will pull up the commits with a bunch of keywords you need to mark up each commit for the actuon you wnat
