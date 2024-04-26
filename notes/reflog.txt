@@ -1,0 +1,15 @@
+Reflow
+"git's diary"
+
+-logs gits every movement of a head pointers
+
+Perfect use for reflog is if you accendenly delete commits
+
+for example you use git reset, you could get them back
+1. use git reflog
+2. you can then make a branch having it start from the delete commit undoing the lost commits
+
+for example you delete a branch
+you could do the same thing in this case!
+
+
