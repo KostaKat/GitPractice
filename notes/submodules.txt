@@ -1,0 +1,16 @@
+Submodules
+
+it is a nested git repo in another repo
+
+1. make a new dir for the nested repo
+2. go into that folder and do git submodule add url
+the contents of this are not stored in our parent repository
+this is stored in the .gitsubmodule
+
+when you when you fork a project with submodules they won't populate the submodules
+
+to downlaod these you can use git submodule updatw --init --reccursivly
+
+you could do this also by git clone --recurse-submodules url
+
+submodules are always checkout on a specific commit
