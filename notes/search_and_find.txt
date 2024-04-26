@@ -1,0 +1,30 @@
+Search and Find
+
+1. by date  use --before / --after
+2. by message --grep
+3. by author --author
+4. by file --<filename>
+5. by branch <branch>
+
+
+example, search if commits after a certain date
+git log --after ="2021-7-21"
+
+example between a date
+git log --after ="2021-7-21" --before "2023-3-22"
+
+ example, looking for a certain message
+git log --grep = "blah", furthermore you could use regular expressions with grep
+example, looking for a certain author
+git log --author="smith"
+
+example, looking for files
+git log --README.md
+
+example, by branch
+
+git feature/login..main, the feature/login is the branch that you are currently in and the dot dot main will show you the changes in main but not in your current brach
+
+you could combine all of these together
+
+
