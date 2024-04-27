@@ -1,0 +1,3 @@
+[submodule "GitLearningProject"]
+	path = GitLearningProject
+	url = https://github.com/KostaKat/GitLearningProject.git
